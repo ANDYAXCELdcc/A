@@ -14,47 +14,66 @@
   
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  
+  <style>
+    .video-section {
+      background-color: #f8f9fa; /* Color de fondo claro */
+      padding: 20px 0; /* Espaciado vertical */
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+      height: 0;
+    }
+    .embedded-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
   
   <section class="video-section" id="video04-3">
     <div class="container">
-        <div class="section-head mb-5">
-            <h4 class="section-title mb-0 mt-0 display-2"><strong>TE AMO MUCHO POTONITA GORDITA ESTA CANCION ES PARA TI AMOR MIO</strong></h4>
-            <h5 class="section-subtitle mt-4 display-7">TE AMO DEMASIDO AMOR</h5>
+      <div class="section-head mb-5 text-center">
+        <h4 class="section-title display-4"><strong>TE AMO MUCHO POTONITA GORDITA ESTA CANCION ES PARA TI AMOR MIO</strong></h4>
+        <h5 class="section-subtitle mt-4">TE AMO DEMASIADO AMOR</h5>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 video-block">
+          <div class="video-wrapper">
+            <iframe class="embedded-video" src="https://www.youtube.com/embed/qENAhc_JyCU?rel=0&mute=0&autoplay=1&loop=1&playlist=qENAhc_JyCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="video-text mt-3 display-5 text-center">TE AMO MUCHO COMO PERDEDOR TE LA DEDICO ESTA CANCION AMOR</p>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-12 video-block">
-                <div class="video-wrapper">
-                    <iframe class="embedded-video" src="https://www.youtube.com/embed/qENAhc_JyCU?rel=0&amp;mute=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=qENAhc_JyCU" width="1280" height="720" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-                </div>
-                <p class="video-text mt-3 display-4">TE AMO MUCHO COMO PERDEDOR TE LA DEDICO ESTA CANCION AMOR</p>
-            </div>
-        </div>
+      </div>
     </div>
   </section>
 
   <section class="people-section" id="people06-4">   
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="card col-12 col-md-12 col-lg-8">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <p class="card-text display-5">I can't express how much I admire the distinctive offerings from this creative small business. Each product exudes its own character and charm, making me feel like I own a piece of art!</p>
-                        <div class="img-wrapper mt-4 justify-content-center">
-                            <img src="assets/images/453380478-335420502973960-2429889896018996493-n-200x200.jpg" alt="User Image" data-slide-to="0">
-                        </div>
-                        <p class="card-title mt-3 display-7"><strong>ANDY A DOMINGUEZ CCORAHUA</strong></p>
-                    </div>
-                </div>
+      <div class="row justify-content-center">
+        <div class="card col-12 col-md-8 col-lg-6">
+          <div class="card-wrapper">
+            <div class="card-body text-center">
+              <p class="card-text">I can't express how much I admire the distinctive offerings from this creative small business. Each product exudes its own character and charm, making me feel like I own a piece of art!</p>
+              <div class="img-wrapper mt-4">
+                <img src="assets/images/453380478-335420502973960-2429889896018996493-n-200x200.jpg" alt="User Image" class="img-fluid">
+              </div>
+              <p class="card-title mt-3"><strong>ANDY A DOMINGUEZ CCORAHUA</strong></p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
   </section>
 
   <!-- Enlace a Facebook -->
-  <section class="social-link" style="display: flex; justify-content: center; height: 4rem;">
-    <a href="https://www.facebook.com/andydominguesgradle.com.net/" style="display: flex; align-items: center;">
+  <section class="social-link text-center" style="padding: 20px 0;">
+    <a href="https://www.facebook.com/andydominguesgradle.com.net/">
       <img src="assets/images/facebook-icon.png" alt="Facebook" style="height: 4rem;">
     </a>
   </section>
@@ -64,4 +83,3 @@
   <script src="assets/theme/js/script.js"></script>
 </body>
 </html>
-
