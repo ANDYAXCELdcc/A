@@ -25,6 +25,7 @@
       padding-bottom: 56.25%; /* Aspect ratio 16:9 */
       height: 0;
       overflow: hidden; /* Para evitar desbordamiento */
+      max-width: 100%; /* Asegúrate de que no se salga del contenedor */
     }
     .embedded-video {
       position: absolute;
@@ -32,6 +33,7 @@
       left: 0;
       width: 100%;
       height: 100%;
+      border: none; /* Quitar bordes */
     }
   </style>
 </head>
@@ -46,7 +48,7 @@
       <div class="row justify-content-center">
         <div class="col-12 video-block">
           <div class="video-wrapper">
-            <iframe class="embedded-video" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/patricia.mendozazavala/videos/3457366627680439&show_text=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe class="embedded-video" src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/patricia.mendozazavala/videos/3457366627680439&show_text=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
           <p class="video-text mt-3 display-5 text-center">TE AMO MUCHO COMO PERDEDOR, TE LA DEDICO ESTA CANCION, AMOR</p>
         </div>
@@ -84,3 +86,4 @@
   <script src="assets/theme/js/script.js"></script>
 </body>
 </html>
+
